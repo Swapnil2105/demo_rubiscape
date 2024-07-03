@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>dark-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Backbone-Rebranding" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Rubiflow" transform="translate(-13.000000, -199.000000)" fill="#4D4D4F">
+            <path d="M16.2928932,199.707107 L13.7071068,202.292893 C13.3165825,202.683418 13.3165825,203.316582 13.7071068,203.707107 C13.8946432,203.894643 14.1489971,204 14.4142136,204 L19.5857864,204 C20.1380712,204 20.5857864,203.552285 20.5857864,203 C20.5857864,202.734784 20.4804296,202.48043 20.2928932,202.292893 L17.7071068,199.707107 C17.3165825,199.316582 16.6834175,199.316582 16.2928932,199.707107 Z" id="dark-arrow" transform="translate(17.000000, 201.500000) rotate(180.000000) translate(-17.000000, -201.500000) "></path>
+        </g>
+    </g>
+</svg>

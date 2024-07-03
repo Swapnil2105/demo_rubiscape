@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="20px" viewBox="0 0 22 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>empty-star-icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Rubisight-Phase-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-277.000000, -104.000000)" fill-rule="nonzero" stroke="#6D6E71" stroke-width="1.71428571">
+            <path d="M297.528114,111.502653 L291.050036,110.935607 L288.476757,105.296159 C288.296601,104.90128 287.70336,104.90128 287.523204,105.296159 L284.949964,110.935644 L278.471886,111.502653 C278.018292,111.542358 277.834972,112.074822 278.177198,112.358548 L283.064927,116.410999 L281.634538,122.400939 C281.534382,122.820333 282.014303,123.149405 282.405983,122.929901 L288,119.794986 L293.594017,122.929901 C293.985697,123.149405 294.465657,122.820333 294.365501,122.400939 L292.935073,116.410999 L297.822802,112.358548 C298.165028,112.074822 297.981708,111.542358 297.528114,111.502653 Z" id="empty-star-icon"></path>
+        </g>
+    </g>
+</svg>

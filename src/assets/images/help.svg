@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="22px" viewBox="0 0 23 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>help</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <ellipse id="path-1" cx="3.34574104" cy="10.1641274" rx="1.27126941" ry="1.22874427"></ellipse>
+    </defs>
+    <g id="Rubisight-Phase-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icons" transform="translate(-86.000000, -105.000000)">
+            <g id="help" transform="translate(88.000000, 106.000000)">
+                <g id="Group-7" transform="translate(6.094795, 4.952300)">
+                    <g id="Group-2">
+                        <path d="M3.461607,0.397953812 C1.50819506,0.397953812 0.611087601,1.5636013 0.611087601,2.35043948 C0.611087601,2.91873704 1.08855417,3.1810025 1.47926146,3.1810025 C2.26059303,3.1810025 1.94228199,2.05903806 3.41818586,2.05903806 C4.14169175,2.05903806 4.72048816,2.37961724 4.72048816,3.04986977 C4.72048816,3.83674975 3.91018149,4.28841986 3.43267341,4.69640693 C3.01307403,5.06066916 2.46321121,5.65810268 2.46321121,6.91119986 C2.46321121,7.66886027 2.66574637,7.88744269 3.25903033,7.88744269 C3.96804867,7.88744269 4.11271664,7.56690531 4.11271664,7.29005097 C4.11271664,6.53234875 4.12724571,6.09522572 4.92306483,5.46869803 C5.31373061,5.16270773 6.54367818,4.17187601 6.54367818,2.80219319 C6.54367818,1.43251037 5.31373061,0.397953812 3.461607,0.397953812 Z" id="Path" stroke="#6D6E71" stroke-width="0.782352941" fill="#6D6E71" fill-rule="nonzero"></path>
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Oval-Copy" fill="#6D6E71" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+                <g id="Group-6" stroke="#6D6E71" stroke-width="2.2">
+                    <ellipse id="Oval" cx="9.5" cy="9.71896684" rx="9.5" ry="9.35"></ellipse>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

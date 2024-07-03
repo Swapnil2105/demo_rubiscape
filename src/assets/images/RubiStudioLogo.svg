@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150" height="150" viewBox="0 0 150 150">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.954" y1="0.954" x2="0.046" y2="0.046" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3891aa"/>
+      <stop offset="1" stop-color="#5ba8ba"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_352" data-name="Group 352" transform="translate(1046 762)">
+    <rect id="Rectangle_439" data-name="Rectangle 439" width="150" height="150" transform="translate(-1046 -762)" fill="none"/>
+    <g id="Group_383" data-name="Group 383" transform="translate(-633.469 -1138.34)">
+      <g id="Group_319" data-name="Group 319" transform="translate(-407.531 381.34)">
+        <rect id="Rectangle_411" data-name="Rectangle 411" width="140" height="140" rx="15" transform="translate(0)" fill="url(#linear-gradient)"/>
+        <g id="Group_318" data-name="Group 318" transform="translate(35 35)">
+          <path id="Path_389" data-name="Path 389" d="M-338.793,438.271l-8.941,32.632H-361.4l-8.95-32.632,15.784-23.249v0Zm-15.775-3.663a5.571,5.571,0,0,0-5.565,5.575,5.574,5.574,0,0,0,5.565,5.577,5.566,5.566,0,0,0,5.553-5.577,5.563,5.563,0,0,0-5.553-5.575" transform="translate(389.572 -400.902)" fill="#fff"/>
+          <path id="Path_390" data-name="Path 390" d="M-317.907,427.219a4.143,4.143,0,0,0-.489.05,33.938,33.938,0,0,0-25.77-18.185,4.366,4.366,0,0,0-4.311-3.744,4.368,4.368,0,0,0-4.315,3.744,33.907,33.907,0,0,0-25.772,18.2,4.338,4.338,0,0,0-.588-.06,4.385,4.385,0,0,0-4.379,4.39A4.386,4.386,0,0,0-379.152,436a4.383,4.383,0,0,0,4.376-4.392,4.365,4.365,0,0,0-1.591-3.36,31.511,31.511,0,0,1,23.87-16.778,4.376,4.376,0,0,0,4.019,2.653,4.37,4.37,0,0,0,4.015-2.653,31.522,31.522,0,0,1,23.841,16.718,4.37,4.37,0,0,0-1.661,3.42A4.382,4.382,0,0,0-317.907,436a4.383,4.383,0,0,0,4.376-4.392A4.382,4.382,0,0,0-317.907,427.219Z" transform="translate(383.531 -405.34)" fill="#fff"/>
+        </g>
+        <rect id="Rectangle_412" data-name="Rectangle 412" width="70" height="70" transform="translate(35 35)" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

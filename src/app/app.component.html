@@ -1,0 +1,510 @@
+<div>
+  <div class="admin-header d-flex justify-content-between main position-fixed">
+    <div class="logo d-flex">
+      <img alt="rubiscape_logo" title="Home" class="cursor-pointer position-absolute" src="assets/images/logo1.png">
+    </div>
+    <div class="topmenu d-flex justify-content-start">
+      <ul class="leftMenu d-flex align-items-center ml-n2">
+        <li class="tooltip-workspace mt-n1 mx-1">
+          <span class="modal-workspace">My Workspace</span>
+          <img src="assets/images/dropdown.svg" alt="dropdown" width="9" height="15" class="workspace-img">
+          <div class="tooltop-workspace bg-white p-2 position-absolute">
+            <p class="title mb-1">My Workspace</p>
+            <p class="Description mb-1"> Description not available</p>
+            <p class="sub-text mb-1"> Click to change the workspace</p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <h2 _ngcontent-yys-c229="" style="font-size: 16px; font-weight: 300; padding-left: 58px; margin-top: 6px;"> Good Afternoon, Swapnil Kothawale! </h2>
+          </div>
+        </li>
+        <li>
+          <ul class="nav panel-tabs position-relative"></ul>
+        </li>
+      </ul>
+    </div>
+    <div class="rightMenu d-flex align-items-center">
+      <ul class="pr-2 mb-0 desktop-view d-flex align-items-center">
+        <!-- <li class="bg-transparent">
+          <div class="tabmenuDropdown dropdown">
+            <a>
+              <img src="assets/images/Add_Blue.svg" width="20" height="20" alt="create-icon" title="Create" class="create-icon">
+            </a>
+          </div>
+        </li> -->
+        <li class="search-icon">
+          <div class="global-info dropdown">
+            <img src="assets/images/search.svg" alt="Recent" width="22" height="17" title="Global Search" class="dropdown-toggle">
+          </div>
+        </li>
+        <li class="search-icon">
+          <div>
+            <img src="assets/images/import.svg" title="Import Workspace" alt="import" placement="top" width="25px" height="35">
+          </div>
+        </li>
+        <div class="dropdown px-1">
+          <div class="icons-hover">
+            <img src="assets/images/help.svg" alt="help" width="20" height="20" title="Help">
+          </div>
+        </div>
+        <li class="bg-color">
+          <div class="dropdown">
+            <div class="icons-hover1">
+              <img src="assets/images/app-menu.svg" alt="applications" width="16" title="Applications" height="16"  >
+            </div>
+          </div>
+        </li>
+        <li class="mr-2 change-localization">
+          <div class="dropdown">
+            <button class="btn border-0 p-0" title="English">
+              <img src="assets/images/languague-icon.svg" alt="Change language" width="18" height="18">
+              <span class="ml-2 icons-hover1">Eng</span>
+              <img src="assets/images/dark-arrow.svg" alt="down-arrow" width="8" height="8" class="ml-2">
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="sidebar">
+    <ul class="nav nav-tabs border-0">
+      <li class="tablelist" style="display: block; width: 100%;">
+        <a href="javascript:;" class="tabname">All</a>
+      </li>
+      <li class="tablelist" style="display: block; width: 100%;">
+        <a href="javascript:;" class="tabname">Projects</a>
+      </li>
+      <li class="tablelist" style="display: block; width: 100%;">
+        <a href="javascript:;" class="tabname">Workflows</a>
+      </li>
+      <li class="tablelist" style="display: block; width: 100%;">
+        <a href="javascript:;" class="tabname">Workbooks</a>
+      </li>
+      <li class="tablelist" style="display: block; width: 100%;">
+        <a href="javascript:;" class="tabname">Models</a>
+      </li>
+      <li class="tablelist" style="display: block; width: 100%;">
+        <a href="javascript:;" class="tabname">Dashboard</a>
+      </li>
+      <li class="tablelist" style="display: block; width: 100%;">
+        <a href="javascript:;" class="tabname">Datasets</a>
+      </li>
+      <li class="tablelist" style="display: block; width: 100%;">
+        <a href="javascript:;" class="tabname">File Server</a>
+      </li>
+      <li class="tablelist" style="display: block; width: 100%;">
+        <a href="javascript:;" class="tabname">Reusable Codes</a>
+      </li>
+    </ul>
+  </div>
+
+  <div class="canvas">
+    <div class="at-glance-pagination d-flex justify-content-between align-items-center">
+      <div>
+        <h2 class="pt-5 my-3">At a Glance</h2>
+      </div>
+    </div>
+
+    <!-- <div class="glance-container"></div> -->
+
+    <div class="no-data d-flex position-relative ml-5 pl-5">
+      <div class="nodata-text ml-n2 bg-white">
+        <p>Add your most important widgets from any dashboard to view them at a glance. For adding widget, please open any dashboard & click on "Add to at a glance" option in the menu of particular widget.</p>
+      </div>
+
+      <div class="recent-list d-flex align-items-center position-relative" style="position: absolute !important; right: 0;"></div>
+    </div>
+
+    <div class="recent-list right-menu d-flex justify-content-between align-items-center my-4 mx-3 pr-3">
+      <div class="search-container">
+        <form>
+          <input type="text" name="search" maxlength="50" placeholder="Search">
+          <img src="assets/images/search-icon.svg" alt="search-icon" width="18" height="18" class="serch-icon position-absolute cursor-pointer" style="right: 10px; top: 9px; position: absolute;">
+        </form>
+      </div>
+
+      <ul class="d-flex align-items-center mb-0">
+        <li class="img-visible"></li>
+        <li class="recent-drop">
+          
+          <div class="content-info"></div>
+          
+          <div class="col">
+            <ul class="nav nav-tabs border-0 tabs">
+              <li class="box pt-1" style="display: block;">
+                <a href="javascript:;" class="mr-2" style="color: #85878a;"> Running  </a>
+              </li>
+              <li class="box pt-1" style="display: block;">
+                <a href="javascript:;" class="mr-2" style="color: #85878a;"> Favourites  </a>
+              </li>
+            </ul>
+          </div>
+
+          <span class="border"></span>
+
+          <div class="dropdown">
+            <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn btn-default dropdown-toggle border-0"> 
+              Recent
+              <div class="icon"></div> 
+            </button>
+
+            <!-- <div aria-labelledby="sortByMenu" class="dropdown-menu dropdown-menu-right cursor-pointer border-0 py-1 mt-2 show" x-placement="bottom-end">  -->
+            <!-- style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-29px, 30px, 0px);" -->
+              <!-- <span class="ng-untouched ng-pristine ng-valid ng-star-inserted">Recent</span>
+              <span class="ng-untouched ng-pristine ng-valid ng-star-inserted">Alphabetical</span> -->
+            <!-- </div> -->
+          </div>
+        </li>
+
+        <span class="border"></span>
+
+        <li>
+          <span class="app-icon cursor-pointer active">
+            <img alt="card-view" placement="top" src="assets/images/card-view-active.svg">
+          </span>
+
+          <span class="border-icon cursor-pointer">
+            <img alt="list-view" placement="top" src="assets/images/list-view.svg">
+          </span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="pt-1">
+      <div class="search-results d-flex flex-wrap position-relative">
+        <div class="main-card">
+          <div class="card p-0 mb-2 pl-1">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media">
+                  <div class="media-left w20">
+                    <img alt height="30" width="30" class="mt-2" src="assets/images/RubiSightLogo.svg">
+                    <!-- <div class="running-info mt-1"></div> -->
+                  </div>
+
+                  <div class="media-body w60">
+                    
+                    <span placement="top-left left" container="body" class="card-title w100 display">Weekly Report</span>
+                    <p class="cardBottom-title cursor-pointer-none w100">
+                      <span placement="top-left left" container="body">
+                        <u class="cardBottom-title projectName">Weekly Report</u>
+                      </span>
+                    </p>
+                    <p class="cardBottom-subTitle"> Updated: 2 weeks ago </p>
+                  </div>
+
+                  <div class="media-right w20">
+                    <div class="container-fluid">
+                      <div class="dropdown float-right mt-n2 context-menu position-relative w100">
+                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn mt-n2">
+                          <img alt="kebab-icon" height="14" width="4" src="assets/images/kebab-icon.svg">
+                        </button>
+
+                        <!-- <div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-right py-1"></div> -->
+                      </div>
+                      <div class="container lm-6 d-flex justify-content-end">
+                        <img src="assets/images/empty-star-icon.svg" width="14" height="16" alt="star" class="point-img cursor-pointer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-card">
+          <div class="card p-0 mb-2 pl-1">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media">
+
+                  <div class="media-left w20">
+                    <img alt height="30" width="30" class="mt-2" src="assets/images/RubiFlowLogo.svg">
+                    <!-- <div class="running-info mt-1"></div> -->
+                  </div>
+
+                  <div class="media-body w60">
+                    <span placement="top-left left" container="body" class="card-title w100 display">Test WorkFlow</span>
+                    <p class="cardBottom-title cursor-pointer-none w100">
+                      <span placement="top-left left" container="body">
+                        <u class="cardBottom-title projectName">Test Workflow</u>
+                      </span>
+                    </p>
+                    <p class="cardBottom-subTitle">  Updated: 5 hours ago  </p>
+                  </div>
+
+                  <div class="media-right w20">
+                    <div class="container-fluid">
+                      <div class="dropdown float-right mt-n2 context-menu position-relative w100">
+                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn dropdown-toggle mt-n2">
+                          <img alt="kebab-icon" height="14" width="4" src="assets/images/kebab-icon.svg">
+                        </button>
+
+                        <!-- <div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-right py-1"></div> -->
+                      </div>
+                      <div class="container lm-6 d-flex justify-content-end">
+                        <img src="assets/images/empty-star-icon.svg" width="14" height="16" alt="star" class="point-img cursor-pointer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-card">
+          <div class="card p-0 mb-2 pl-1">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media">
+
+                  <div class="media-left w20">
+                    <img alt height="30" width="30" class="mt-2" src="assets/images/RubiStudioLogo.svg">
+                    <!-- <div class="running-info mt-1"></div> -->
+                  </div>
+
+                  <div class="media-body w60">
+                    <span placement="top-left left" container="body" class="card-title w100 display">Test WorkBook</span>
+                    <p class="cardBottom-title cursor-pointer-none w100">
+                      <span placement="top-left left" container="body">
+                        <u class="cardBottom-title projectName">Test WorkBook</u>
+                      </span>
+                    </p>
+                    <p class="cardBottom-subTitle">   Updated: 6 hours ago   </p>
+                  </div>
+
+                  <div class="media-right w20">
+                    <div class="container-fluid">
+                      <div class="dropdown float-right mt-n2 context-menu position-relative w100">
+                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn dropdown-toggle mt-n2">
+                          <img alt="kebab-icon" height="14" width="4" src="assets/images/kebab-icon.svg">
+                        </button>
+
+                        <!-- <div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-right py-1"></div> -->
+                      </div>
+                      <div class="container lm-6 d-flex justify-content-end">
+                        <img src="assets/images/empty-star-icon.svg" width="14" height="16" alt="star" class="point-img cursor-pointer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-card">
+          <div class="card p-0 mb-2 pl-1">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media">
+
+                  <div class="media-left w20">
+                    <img alt height="30" width="30" class="mt-2" src="assets/images/ConnectLogo.svg">
+                    <!-- <div class="running-info mt-1"></div> -->
+                  </div>
+
+                  <div class="media-body w60">
+                    <span placement="top-left left" container="body" class="card-title w100 display">Test RubiConnect</span>
+                    <p class="cardBottom-title cursor-pointer-none w100">
+                      <span placement="top-left left" container="body">
+                        <u class="cardBottom-title projectName"> File </u>
+                      </span>
+                    </p>
+                    <p class="cardBottom-subTitle"> Updated: 8 hours ago </p>
+                  </div>
+
+                  <div class="media-right w20">
+                    <div class="container-fluid">
+                      <div class="dropdown float-right mt-n2 context-menu position-relative w100">
+                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn dropdown-toggle mt-n2">
+                          <img alt="kebab-icon" height="14" width="4" src="assets/images/kebab-icon.svg">
+                        </button>
+
+                        <!-- <div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-right py-1"></div> -->
+                      </div>
+                      <div class="container lm-6 d-flex justify-content-end">
+                        <img src="assets/images/empty-star-icon.svg" width="14" height="16" alt="star" class="point-img cursor-pointer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-card">
+          <div class="card p-0 mb-2 pl-1">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media">
+                  <div class="media-left w20">
+                    <img alt height="30" width="30" class="mt-2" src="assets/images/RubiSightLogo.svg">
+                    <!-- <div class="running-info mt-1"></div> -->
+                  </div>
+
+                  <div class="media-body w60">
+                    
+                    <span placement="top-left left" container="body" class="card-title w100 display">Weekly Report</span>
+                    <p class="cardBottom-title cursor-pointer-none w100">
+                      <span placement="top-left left" container="body">
+                        <u class="cardBottom-title projectName">Weekly Report</u>
+                      </span>
+                    </p>
+                    <p class="cardBottom-subTitle"> Updated: 2 weeks ago </p>
+                  </div>
+
+                  <div class="media-right w20">
+                    <div class="container-fluid">
+                      <div class="dropdown float-right mt-n2 context-menu position-relative w100">
+                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn dropdown-toggle mt-n2">
+                          <img alt="kebab-icon" height="14" width="4" src="assets/images/kebab-icon.svg">
+                        </button>
+
+                        <!-- <div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-right py-1"></div> -->
+                      </div>
+                      <div class="container lm-6 d-flex justify-content-end">
+                        <img src="assets/images/empty-star-icon.svg" width="14" height="16" alt="star" class="point-img cursor-pointer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-card">
+          <div class="card p-0 mb-2 pl-1">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media">
+
+                  <div class="media-left w20">
+                    <img alt height="30" width="30" class="mt-2" src="assets/images/RubiFlowLogo.svg">
+                    <!-- <div class="running-info mt-1"></div> -->
+                  </div>
+
+                  <div class="media-body w60">
+                    <span placement="top-left left" container="body" class="card-title w100 display">Test WorkFlow</span>
+                    <p class="cardBottom-title cursor-pointer-none w100">
+                      <span placement="top-left left" container="body">
+                        <u class="cardBottom-title projectName">Test Workflow</u>
+                      </span>
+                    </p>
+                    <p class="cardBottom-subTitle">  Updated: 5 hours ago  </p>
+                  </div>
+
+                  <div class="media-right w20">
+                    <div class="container-fluid">
+                      <div class="dropdown float-right mt-n2 context-menu position-relative w100">
+                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn dropdown-toggle mt-n2">
+                          <img alt="kebab-icon" height="14" width="4" src="assets/images/kebab-icon.svg">
+                        </button>
+
+                        <!-- <div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-right py-1"></div> -->
+                      </div>
+                      <div class="container lm-6 d-flex justify-content-end">
+                        <img src="assets/images/empty-star-icon.svg" width="14" height="16" alt="star" class="point-img cursor-pointer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-card">
+          <div class="card p-0 mb-2 pl-1">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media">
+
+                  <div class="media-left w20">
+                    <img alt height="30" width="30" class="mt-2" src="assets/images/RubiStudioLogo.svg">
+                    <!-- <div class="running-info mt-1"></div> -->
+                  </div>
+
+                  <div class="media-body w60">
+                    <span placement="top-left left" container="body" class="card-title w100 display">Test WorkBook</span>
+                    <p class="cardBottom-title cursor-pointer-none w100">
+                      <span placement="top-left left" container="body">
+                        <u class="cardBottom-title projectName">Test WorkBook</u>
+                      </span>
+                    </p>
+                    <p class="cardBottom-subTitle">   Updated: 6 hours ago   </p>
+                  </div>
+
+                  <div class="media-right w20">
+                    <div class="container-fluid">
+                      <div class="dropdown float-right mt-n2 context-menu position-relative w100">
+                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn dropdown-toggle mt-n2">
+                          <img alt="kebab-icon" height="14" width="4" src="assets/images/kebab-icon.svg">
+                        </button>
+
+                        <!-- <div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-right py-1"></div> -->
+                      </div>
+                      <div class="container lm-6 d-flex justify-content-end">
+                        <img src="assets/images/empty-star-icon.svg" width="14" height="16" alt="star" class="point-img cursor-pointer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="main-card">
+          <div class="card p-0 mb-2 pl-1">
+            <div class="card-content">
+              <div class="card-body">
+                <div class="media">
+
+                  <div class="media-left w20">
+                    <img alt height="30" width="30" class="mt-2" src="assets/images/ConnectLogo.svg">
+                    <!-- <div class="running-info mt-1"></div> -->
+                  </div>
+
+                  <div class="media-body w60">
+                    <span placement="top-left left" container="body" class="card-title w100 display">Test RubiConnect</span>
+                    <p class="cardBottom-title cursor-pointer-none w100">
+                      <span placement="top-left left" container="body">
+                        <u class="cardBottom-title projectName"> File </u>
+                      </span>
+                    </p>
+                    <p class="cardBottom-subTitle"> Updated: 8 hours ago </p>
+                  </div>
+
+                  <div class="media-right w20">
+                    <div class="container-fluid">
+                      <div class="dropdown float-right mt-n2 context-menu position-relative w100">
+                        <button type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn dropdown-toggle mt-n2">
+                          <img alt="kebab-icon" height="14" width="4" src="assets/images/kebab-icon.svg">
+                        </button>
+
+                        <!-- <div aria-labelledby="dropdownMenuButton" class="dropdown-menu dropdown-menu-right py-1"></div> -->
+                      </div>
+                      <div class="container lm-6 d-flex justify-content-end">
+                        <img src="assets/images/empty-star-icon.svg" width="14" height="16" alt="star" class="point-img cursor-pointer">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+</div>
